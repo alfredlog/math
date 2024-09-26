@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Equation du premier degre</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  bg-dark " id="menu">
+        <div class="container-fluid">
+          <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <b class="text-light grand">MENU</b>
+          </button>
+          <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Les Sujet
+                </a>
+                <ul class="dropdown-menu bg-info" >
+                  <li><a class="dropdown-item" href="exs1.html" >Equation du premier degré</a></li>
+                  <li><a class="dropdown-item" href="inex1d.html">Inéquation du premier degré</a></li>
+                  <li><a class="dropdown-item" href="exs2.html">Equation du second degré</a></li>
+                  <li><a class="dropdown-item" href="Inexs2.html">Inéquation du second degré</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact
+                  </a>
+                  <ul class="dropdown-menu " id="sujet">
+                    <li><a class="dropdown-item" href="https://www.instagram.com/alfredmushagalusam"><img src="instagram.png" alt="" height="60px"></a></li>
+                    <li><a class="dropdown-item" href="mailto:fna.dev.app@gmail.com"><img src="gmail.png" alt="" height="60px"></a></li>
+                    <li><a class="dropdown-item" href="https://www.twitter.com/alfred_mus_FCB"><img src="twitter.png" alt="" height="60px"></a></li>
+                  </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <header class="bg-info p-3 text-center">
+        <h2 class="titre"><b>Equation du premier degré</b></h2>
+    </header>
+    <section class="secex1">
+        <div class="bg-secondary p-3 ">
+            <p>
+                Pour travailler votre équation vous allez devoir completer un formulaire avec les données de votre équation 
+                Nous savons qu'une équation du premier degré est de forme ax + b = c avec c qui est souvent égal 0 donc pour calculer 
+                nous aurons besoin de ces trois éléments a,b,c qui ont chacun une case reserver pour qu'il y soit completer 
+                par exemple pour l'equation: <br>2x + 4 = 0  la case a = 2 , b = 4 et c = 0
+                <br><b class="jaune ">NB : Si vous avez une fraction dans votre équation il faudra seulement la diviser puis completer le quotient dans la case correspondente(exemple pour 1/3 on completera 0,3333...)</b> 
+            </p>
+        </div>
+        <div class="bg-white p-3">
+            <fieldset class="filex1">
+                <legend class="leg"><b>Les Données de l'équation</b></legend>
+                <form action="resex1.html" id="donneesex1" onsubmit="equation1()">
+                    <label for="x">valeur de A</label><br><input type="number" id="ax" name="x" class="bg-info" required step="any"><br><br><label for="b">Valeur de B</label><br><input type="number" id="b" name="bn" required class="bg-info" step="any"><br><br><label for="c">Valeur de C</label><br><input type="number" id="c" name="c" required class="bg-info" step="any"><br><br>
+                    <button type="submit" class="btn btn-primary  text-wrap" id="bn">CALCULER</button>
+                </form>
+            </fieldset>
+            <p><br></p>
+        </div>
+    </section>
+    <div class="">
+        <ul class=" bg-dark row ">
+            <li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="#menu">Menu</a>
+                </li>
+                <li class="container">
+                  <p class="text-white nav-link">Contact</p>
+                  <p></p>
+                  <ul class="container row">
+                    <li class="col-3"><a  href="https://www.instagram.com/alfredmushagalusam"><img src="instagram.png" alt="" height="30px"></a></li>
+                    <li class="col-3"><a  href="mailto:fna.dev.app@gmail.com"><img src="gmail.png" alt="" height="30px"></a></li>
+                    <li class="col-3"><a  href="https://www.twitter.com/alfred_mus_FCB"><img src="twitter.png" alt="" height="30px"></a></li>
+                  </ul>
+                </li>
+            </li>
+            <p><br></p>
+            <p class="text-white text-center accueil">copyright &copy 2023 - Alfred mus</p>
+        </ul>
+    </div>
+  </div>
+<script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+<script src="bootstrap.js"></script> 
+    <script src="main.js"></script>
+</body>
+</html>

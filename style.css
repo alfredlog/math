@@ -1,0 +1,179 @@
+
+#Retour
+{
+    background-color: rgb(86, 86, 144);
+    border: black groove 1px;
+    color: rgb(189, 189, 189);
+}
+.taille
+{
+    border-right: groove black 5px;
+    font-size: 40px;
+}
+.centrer,#gauche,#droite,#Milieu
+{
+    text-align: center;
+}
+.ble
+{
+    color: white;
+}
+.jaune
+{
+    background-color: rgb(19, 153, 173);
+}
+#etude,#M,#gauche,#droite
+{
+    text-align: center;
+}
+#th1,#inex
+{
+    border-right: 10px rgb(9, 9, 9) groove;
+}
+table
+{
+
+    border-collapse: collapse;
+    text-align: center;
+}
+.lin
+{
+    border-bottom: 10px rgb(9, 9, 9) ridge;
+    padding-bottom: 0px;
+}
+
+.back
+{
+    background-color: rgb(86, 86, 144);
+    width: 100px;
+    border-radius: 5px;
+}
+.secex1,.secexs2
+{
+    padding-left: 15px;
+    font-size: 20px;  
+}
+
+table
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    width: 800px;
+    margin: auto;
+}
+
+
+.flexi
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    width: 100%;
+}
+body
+{
+    background-image: url("IMG_3577.JPG");
+}
+.fot
+{
+    grid-area: pied;
+    padding-top: 100px;
+    text-align: center;
+}
+.sec
+{
+    grid-area: corp;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.as
+{
+    grid-area: cot;
+}
+.hd1
+{
+    grid-area: tete;
+    font-size: 12px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#donnees
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+.accueil
+{
+    font-size: 30px;
+}
+
+.contacts
+{
+    width: 100px;
+    grid-template-rows: auto;
+    text-align: center;
+    margin: auto;
+}
+@media(max-width:1200px)
+{
+
+    footer
+    {
+        font-size: 15px;
+        color: black;
+    }
+    section
+    {
+        font-size: 50px;
+        padding: 2px;
+    }
+    .sec,.secex1,.secexs2
+    {
+        grid-area: corp;
+        font-size: 50px;
+        padding: 2px;
+    }
+    .titre,.grand
+    {
+        font-size: 50px;
+    }
+    input[type = "number"]
+    {
+        width: 250px;
+    }
+    #bn
+    {
+        font-size: 50px;
+        border-width: 10px;
+        width: 500px;
+        font-weight: bold;
+    }
+    .leg
+    {
+        font-size: 50px;
+    }
+    li
+    {
+        font-size: 50px;
+    }
+    .accueil
+    {
+        
+        font-size: 25px;
+        
+                            
+    }
+    input[type = "radio"] + label { border: rgb(8, 8, 8) 5px groove;  width: 600px; }
+    input[type = "radio"]:checked + label { background-color: rgb(19, 153, 173); border: rgb(19, 153, 173) 10px groove; }
+    table
+    {
+        width: 100%;
+        height: 200px;
+        font-size: 40px;
+    }
+
+    
+}
+
